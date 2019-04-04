@@ -1,0 +1,22 @@
+.header {
+  background: blueviolet;
+}
+
+.sidebar {
+  width: 30%;
+  background: greenyellow;
+  float: left;
+}
+
+.content {
+  width: 70%;
+  float: right;
+}
+
+.dialog {
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  position: fixed;
+  background: #ccc;
+}

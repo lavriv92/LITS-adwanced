@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <itemnk rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+  <form action="">
+    <fieldset tabindex="1">
+      <legend>Pesonal Info</legend>
+
+      <p>
+        <label for="item">First:</label>
+        <input type="text" required name="first[]"/>
+      </p>
+      <p>
+          <label for="last">Last:</label>
+          <input type="text" required name="first[]" />
+        </p>
+    </fieldset>
+    <fieldset tabindex="2" disabled>
+      <legend>Address Info</legend>
+
+      <p>
+          <label for="City">City:</label>
+          <input type="text" required name="first"/>
+        </p>
+        <p>
+            <label for="state">State:</label>
+            <input type="text" required name="state"/>
+          </p>
+    </fieldset>
+
+    <button>Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>

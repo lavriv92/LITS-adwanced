@@ -1,0 +1,31 @@
+.svg {
+  background: #f6f6f6;
+}
+
+.sun {
+  fill: yellow;
+}
+
+.cloud {
+  fill: aqua;
+}
+
+.grass {
+  fill: lightgreen;
+}
+
+.house-body {
+  fill: orange;
+}
+
+.house-head {
+  fill: bisque;
+}
+
+.window {
+  fill: white;
+}
+
+.door {
+  fill: brown;
+}
